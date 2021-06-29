@@ -1,0 +1,119 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #2de0b9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.container.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text {
+  color: #242424;
+  font-size: 20px;
+}
+
+.login,
+.create,
+.link-text {
+  color: #3a0e26;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.create:hover {
+  color: #0d6063;
+}
+
+.login:hover {
+  color: #0c5475;
+}
+
+form.chat--form input[type="text"] {
+  padding: 9px 12px;
+  margin: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  background: #f1f1f1;
+}
+
+form.chat--form input[type="submit"] {
+  padding: 9px 10px;
+  margin: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  background: #dfdfdf;
+}
+
+.chat--box {
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  margin-top: 1%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.chat--view {
+  width: 400px;
+  height: 450px;
+  margin: auto;
+  background: #f3fdff;
+  text-align: left;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: auto;
+}
+
+.chat--form input[type="text"] {
+  width: 70%;
+}
+
+.chat--form input[type="submit"] {
+  width: 30%;
+}
+
+.usermsg {
+  font-size: 12px;
+  margin: 7px 0;
+  padding: 4px 8px;
+  background: rgba(203, 255, 244, 0.729);
+}
+
+.usermsg:nth-child(odd) {
+  background: rgba(213, 168, 255, 0.729);
+}
+
+.logout-btn {
+  width: 400px;
+  margin: auto;
+  margin-top: 3%;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
